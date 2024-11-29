@@ -48,7 +48,7 @@ jobs:
       - name: Fetching the programs data
         run: |
           cd epg
-          npm run grab -- --channels=../channels.xml --maxConnections=10 --output="../guide.xml"
+          npm run grab -- --channels=../channels.xml --maxConnections=100 --output="../guide.xml"
 
       - name: Fixing the document
         run: python scripts/fix.py --input guide.xml guide.xml
