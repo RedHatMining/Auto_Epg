@@ -3,8 +3,7 @@ run-name: Updating the EPG 🎐
 on:
   workflow_dispatch:
   schedule:
-    # Every 10 minutes
-    - cron: "*/10 * * * *"
+    - cron: "0 * * * *"
 jobs:
   update:
     runs-on: ubuntu-latest
