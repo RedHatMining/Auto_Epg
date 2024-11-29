@@ -27,12 +27,13 @@ jobs:
       - name: Getting the channels ID
         run: python scripts/filter.py --input database/data/channels.csv --country="JP" --minify channels.json
 
-      - name: Commit channels.json
-        uses: ad-m/github-push-action@v0.6.0
-        with:
-          branch: main
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          commit_message: "Save filtered channels.json"
+      - name: Commit channels.json (if modified)
+        run: |
+          git config --global user.name "GitHub Actions"
+          git config --global user.email "actions@github.com"
+          git add channels.json
+          git diff --quiet || git commit -m "Save filtered channels.json"
+          git push origin main
 
       - name: Downloading the EPG fetchers
         uses: actions/checkout@v4
@@ -43,12 +44,13 @@ jobs:
       - name: Filtering the channels
         run: python scripts/fetcher.py --input channels.json --sites epg/sites channels.xml
 
-      - name: Commit channels.xml
-        uses: ad-m/github-push-action@v0.6.0
-        with:
-          branch: main
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          commit_message: "Save filtered channels.xml"
+      - name: Commit channels.xml (if modified)
+        run: |
+          git config --global user.name "GitHub Actions"
+          git config --global user.email "actions@github.com"
+          git add channels.xml
+          git diff --quiet || git commit -m "Save filtered channels.xml"
+          git push origin main
 
       - uses: actions/setup-node@v4
         with:
@@ -64,42 +66,46 @@ jobs:
           cd epg
           npm run grab -- --channels=../channels.xml --maxConnections=10 --output="../guide.xml"
 
-      - name: Commit guide.xml (raw data)
-        uses: ad-m/github-push-action@v0.6.0
-        with:
-          branch: main
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          commit_message: "Save raw guide.xml"
+      - name: Commit guide.xml (raw data, if modified)
+        run: |
+          git config --global user.name "GitHub Actions"
+          git config --global user.email "actions@github.com"
+          git add guide.xml
+          git diff --quiet || git commit -m "Save raw guide.xml"
+          git push origin main
 
       - name: Fixing the document
         run: python scripts/fix.py --input guide.xml guide.xml
 
-      - name: Commit fixed guide.xml
-        uses: ad-m/github-push-action@v0.6.0
-        with:
-          branch: main
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          commit_message: "Save fixed guide.xml"
+      - name: Commit fixed guide.xml (if modified)
+        run: |
+          git config --global user.name "GitHub Actions"
+          git config --global user.email "actions@github.com"
+          git add guide.xml
+          git diff --quiet || git commit -m "Save fixed guide.xml"
+          git push origin main
 
       - name: Merging redundant programs
         run: python scripts/merger.py --input guide.xml guide.xml
 
-      - name: Commit merged guide.xml
-        uses: ad-m/github-push-action@v0.6.0
-        with:
-          branch: main
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          commit_message: "Save merged guide.xml"
+      - name: Commit merged guide.xml (if modified)
+        run: |
+          git config --global user.name "GitHub Actions"
+          git config --global user.email "actions@github.com"
+          git add guide.xml
+          git diff --quiet || git commit -m "Save merged guide.xml"
+          git push origin main
 
       - name: Minify XML
         run: python scripts/minify.py --input guide.xml guide.xml
 
-      - name: Commit minified guide.xml
-        uses: ad-m/github-push-action@v0.6.0
-        with:
-          branch: main
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          commit_message: "Save minified guide.xml"
+      - name: Commit minified guide.xml (if modified)
+        run: |
+          git config --global user.name "GitHub Actions"
+          git config --global user.email "actions@github.com"
+          git add guide.xml
+          git diff --quiet || git commit -m "Save minified guide.xml"
+          git push origin main
 
       - name: Remove the downloaded repositories
         run: |
