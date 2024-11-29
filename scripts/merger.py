@@ -1,67 +1,50 @@
 import argparse
 import pathlib
-from xml.dom.minidom import Document, Element, parse
+from lxml import etree
 from collections import defaultdict
 import tqdm
 
 
-class ChildNodes:
-    """Efficient handling of unique child elements."""
+def merge_programs(programs):
+    """
+    Merge a list of program elements into one.
+    Only unique child elements are retained.
+    """
+    merged = etree.Element(programs[0].tag, attrib=programs[0].attrib)
+    seen = set()
 
-    def __init__(self, element: Element):
-        self.element = element
-        self.children = {}  # Keyed by (tag, attributes, text)
-
-    def _child_key(self, element: Element) -> tuple:
-        """Generate a unique key for an element."""
-        tag = element.tagName if element.nodeType == element.ELEMENT_NODE else None
-        text = (element.nodeValue or "").strip()
-        attrs = (
-            tuple(sorted((k, v) for k, v in element.attributes.items()))
-            if element.attributes
-            else ()
-        )
-        return tag, attrs, text
-
-    def add(self, element: Element):
-        """Add a unique child element."""
-        key = self._child_key(element)
-        if key not in self.children:
-            self.children[key] = element
-            self.element.appendChild(element.cloneNode(deep=True))
+    for program in programs:
+        for child in program:
+            key = (child.tag, frozenset(child.attrib.items()), child.text)
+            if key not in seen:
+                seen.add(key)
+                merged.append(child)
+    return merged
 
 
-def merge_programs(programs: list[Element]) -> Element:
-    """Merge a list of program elements into one."""
-    new_element = programs[0].cloneNode(deep=True)
-    children = ChildNodes(new_element)
-    for program in programs[1:]:
-        for child in program.childNodes:
-            children.add(child)
-    return new_element
+def main(tree, progress=False):
+    """
+    Core logic for merging program data.
+    :param tree: The parsed XML tree
+    :param progress: Whether to show a progress bar
+    """
+    root = tree.getroot()
 
-
-def main(dom: Document, progress: bool = False):
-    """Core logic for merging program data."""
-    # Group programmes by (start, channel) for quick lookup
+    # Group programmes by (start, channel)
     programmes_by_key = defaultdict(list)
-    for programme in dom.getElementsByTagName("programme"):
-        key = (
-            programme.getAttribute("start"),
-            programme.getAttribute("channel"),
-        )
+    for programme in root.findall("programme"):
+        key = (programme.attrib["start"], programme.attrib["channel"])
         programmes_by_key[key].append(programme)
 
-    # Iterate over groups and merge them
+    # Merge and replace grouped programs
     for (start, channel), programs in tqdm.tqdm(
         programmes_by_key.items(), disable=not progress
     ):
         if len(programs) > 1:
             merged = merge_programs(programs)
-            parent = programs[0].parentNode
             for program in programs:
-                parent.removeChild(program)
-            parent.appendChild(merged)
+                root.remove(program)
+            root.append(merged)
 
 
 def entry():
@@ -73,17 +56,19 @@ def entry():
     parser.add_argument("output", default="-", help="The output path", nargs="?")
     args = parser.parse_args()
 
-    with pathlib.Path(args.input).open() as file:
-        dom = parse(file)
+    # Parse input XML
+    tree = etree.parse(str(args.input))
 
+    # Determine if output should go to stdout
     stdout = not (args.output and args.output != "-")
-    main(dom, progress=not stdout)
+    main(tree, progress=not stdout)
 
-    result = dom.toxml(encoding="utf-8")
+    # Write output
     if stdout:
-        print(result.decode("utf-8"))
+        print(etree.tostring(tree, pretty_print=True, encoding="utf-8").decode("utf-8"))
     else:
-        pathlib.Path(args.output).write_bytes(result)
+        with open(args.output, "wb") as f:
+            tree.write(f, pretty_print=True, xml_declaration=True, encoding="utf-8")
 
 
 if __name__ == "__main__":
