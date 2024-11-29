@@ -25,7 +25,7 @@ jobs:
         run: python -m pip install -r requirements.txt
 
       - name: Getting the channels ID
-        run: python scripts/filter.py --input database/data/channels.csv --country="JP" --minify channels.json
+        run: python scripts/filter.py --input database/data/channels.csv --country="US" --minify channels.json
 
       - name: Commit channels.json (force commit)
         run: |
@@ -66,40 +66,16 @@ jobs:
           cd epg
           npm run grab -- --channels=../channels.xml --maxConnections=10 --output="../guide.xml"
 
-      - name: Commit guide.xml (raw data, force commit)
-        run: |
-          git config --global user.name "GitHub Actions"
-          git config --global user.email "actions@github.com"
-          git add guide.xml
-          git commit -m "Save raw guide.xml" || echo "No changes to commit"
-          git push origin main
-
       - name: Fixing the document
         run: python scripts/fix.py --input guide.xml guide.xml
-
-      - name: Commit fixed guide.xml (force commit)
-        run: |
-          git config --global user.name "GitHub Actions"
-          git config --global user.email "actions@github.com"
-          git add guide.xml
-          git commit -m "Save fixed guide.xml" || echo "No changes to commit"
-          git push origin main
 
       - name: Merging redundant programs
         run: python scripts/merger.py --input guide.xml guide.xml
 
-      - name: Commit merged guide.xml (force commit)
-        run: |
-          git config --global user.name "GitHub Actions"
-          git config --global user.email "actions@github.com"
-          git add guide.xml
-          git commit -m "Save merged guide.xml" || echo "No changes to commit"
-          git push origin main
-
       - name: Minify XML
         run: python scripts/minify.py --input guide.xml guide.xml
 
-      - name: Commit minified guide.xml (force commit)
+      - name: Commit guide.xml (force commit)
         run: |
           git config --global user.name "GitHub Actions"
           git config --global user.email "actions@github.com"
