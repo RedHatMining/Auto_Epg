@@ -1,0 +1,81 @@
+name: EPG Update
+run-name: Updating the EPG 🎐
+on:
+  workflow_dispatch:
+  schedule:
+    # Every 10 minutes
+    - cron: "*/10 * * * *"
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Downloading the channels database
+        uses: actions/checkout@v4
+        with:
+          repository: "iptv-org/database"
+          path: "database"
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Installing Python dependencies
+        run: python -m pip install -r requirements.txt
+
+      - name: Getting the channels ID
+        run: python scripts/filter.py --input database/data/channels.csv --country="US" --minify channels.json
+
+      - name: Downloading the EPG fetchers
+        uses: actions/checkout@v4
+        with:
+          repository: "iptv-org/epg"
+          path: "epg"
+
+      - name: Filtering the channels
+        run: python scripts/fetcher.py --input channels.json --sites epg/sites channels.xml
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "21.7.3"
+
+      - name: Installing JavaScript dependencies
+        run: |
+          cd epg
+          npm install
+
+      - name: Fetching the programs data
+        run: |
+          cd epg
+          npm run grab -- --channels=../channels.xml --maxConnections=10 --output="../guide.xml"
+
+      - name: Fixing the document
+        run: python scripts/fix.py --input guide.xml guide.xml
+
+      - name: Merging redundant programs
+        run: python scripts/merger.py --input guide.xml guide.xml
+
+      - name: Minify XML
+        run: python scripts/minify.py --input guide.xml guide.xml
+
+      - name: Remove the downloaded repositories
+        run: |
+          echo "Removing 'database'"
+          rm -r database
+          echo "Removing 'epg'"
+          rm -r epg
+
+      - name: Check for changes
+        id: check_changes
+        run: |
+          git diff --exit-code || echo "Changes detected" > changes.txt
+
+      - name: Commit and push changes (using GitHub token)
+        if: steps.check_changes.outputs.changes == 'Changes detected'
+        uses: ad-m/github-push-action@v0.6.0
+        with:
+          branch: main
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          commit_message: "Automated guide.xml update (${{ github.event.head_commit.timestamp }})"
