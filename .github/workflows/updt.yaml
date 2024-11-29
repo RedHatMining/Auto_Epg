@@ -1,33 +1,41 @@
 name: EPG Update
 run-name: Updating the EPG 🎐
+
 on:
   workflow_dispatch:
   schedule:
     - cron: "0 * * * *"
+
 jobs:
   update:
     runs-on: ubuntu-latest
     steps:
+      # Checkout repository
       - name: Checkout repository
         uses: actions/checkout@v4
 
+      # Download channels database
       - name: Downloading the channels database
         uses: actions/checkout@v4
         with:
           repository: "iptv-org/database"
           path: "database"
 
+      # Set up Python
       - uses: actions/setup-python@v5
         with:
           python-version: "3.11"
 
+      # Install Python dependencies
       - name: Installing Python dependencies
-        run: python -m pip install -r requirements.txt
+        run: python -m pip install --upgrade pip && pip install -r requirements.txt
 
-      - name: Getting the channels ID
+      # Get the channels ID
+      - name: Filtering channels
         run: python scripts/filter.py --input database/data/channels.csv --country="US" --minify channels.json
 
-      - name: Commit channels.json (force commit)
+      # Commit channels.json
+      - name: Commit filtered channels.json
         run: |
           git config --global user.name "GitHub Actions"
           git config --global user.email "actions@github.com"
@@ -35,16 +43,19 @@ jobs:
           git commit -m "Save filtered channels.json" || echo "No changes to commit"
           git push origin main
 
+      # Download EPG fetchers
       - name: Downloading the EPG fetchers
         uses: actions/checkout@v4
         with:
           repository: "iptv-org/epg"
           path: "epg"
 
-      - name: Filtering the channels
+      # Filter channels and generate channels.xml
+      - name: Generate channels.xml
         run: python scripts/fetcher.py --input channels.json --sites epg/sites channels.xml
 
-      - name: Commit channels.xml (force commit)
+      # Commit channels.xml
+      - name: Commit filtered channels.xml
         run: |
           git config --global user.name "GitHub Actions"
           git config --global user.email "actions@github.com"
@@ -52,30 +63,32 @@ jobs:
           git commit -m "Save filtered channels.xml" || echo "No changes to commit"
           git push origin main
 
+      # Set up Node.js
       - uses: actions/setup-node@v4
         with:
           node-version: "21.7.3"
 
+      # Install JavaScript dependencies
       - name: Installing JavaScript dependencies
         run: |
           cd epg
           npm install
 
+      # Fetch EPG data
       - name: Fetching the programs data
         run: |
           cd epg
           npm run grab -- --channels=../channels.xml --maxConnections=10 --output="../guide.xml"
 
-      - name: Fixing the document
-        run: python scripts/fix.py --input guide.xml guide.xml
+      # Post-process EPG data
+      - name: Post-process guide.xml
+        run: |
+          python scripts/fix.py --input guide.xml guide.xml
+          python scripts/merger.py --input guide.xml guide.xml
+          python scripts/minify.py --input guide.xml guide.xml
 
-      - name: Merging redundant programs
-        run: python scripts/merger.py --input guide.xml guide.xml
-
-      - name: Minify XML
-        run: python scripts/minify.py --input guide.xml guide.xml
-
-      - name: Commit guide.xml (force commit)
+      # Commit guide.xml
+      - name: Commit minified guide.xml
         run: |
           git config --global user.name "GitHub Actions"
           git config --global user.email "actions@github.com"
@@ -83,9 +96,8 @@ jobs:
           git commit -m "Save minified guide.xml" || echo "No changes to commit"
           git push origin main
 
-      - name: Remove the downloaded repositories
+      # Clean up downloaded repositories
+      - name: Clean up downloaded repositories
         run: |
-          echo "Removing 'database'"
-          rm -r database
-          echo "Removing 'epg'"
-          rm -r epg
+          echo "Removing 'database' and 'epg' directories"
+          rm -rf database epg
