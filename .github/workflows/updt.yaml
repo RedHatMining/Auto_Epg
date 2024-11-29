@@ -27,6 +27,13 @@ jobs:
       - name: Getting the channels ID
         run: python scripts/filter.py --input database/data/channels.csv --country="US" --minify channels.json
 
+      - name: Commit channels.json
+        uses: ad-m/github-push-action@v0.6.0
+        with:
+          branch: main
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          commit_message: "Save filtered channels.json"
+
       - name: Downloading the EPG fetchers
         uses: actions/checkout@v4
         with:
@@ -35,6 +42,13 @@ jobs:
 
       - name: Filtering the channels
         run: python scripts/fetcher.py --input channels.json --sites epg/sites channels.xml
+
+      - name: Commit channels.xml
+        uses: ad-m/github-push-action@v0.6.0
+        with:
+          branch: main
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          commit_message: "Save filtered channels.xml"
 
       - uses: actions/setup-node@v4
         with:
@@ -50,14 +64,42 @@ jobs:
           cd epg
           npm run grab -- --channels=../channels.xml --maxConnections=10 --output="../guide.xml"
 
+      - name: Commit guide.xml (raw data)
+        uses: ad-m/github-push-action@v0.6.0
+        with:
+          branch: main
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          commit_message: "Save raw guide.xml"
+
       - name: Fixing the document
         run: python scripts/fix.py --input guide.xml guide.xml
+
+      - name: Commit fixed guide.xml
+        uses: ad-m/github-push-action@v0.6.0
+        with:
+          branch: main
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          commit_message: "Save fixed guide.xml"
 
       - name: Merging redundant programs
         run: python scripts/merger.py --input guide.xml guide.xml
 
+      - name: Commit merged guide.xml
+        uses: ad-m/github-push-action@v0.6.0
+        with:
+          branch: main
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          commit_message: "Save merged guide.xml"
+
       - name: Minify XML
         run: python scripts/minify.py --input guide.xml guide.xml
+
+      - name: Commit minified guide.xml
+        uses: ad-m/github-push-action@v0.6.0
+        with:
+          branch: main
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          commit_message: "Save minified guide.xml"
 
       - name: Remove the downloaded repositories
         run: |
@@ -65,16 +107,3 @@ jobs:
           rm -r database
           echo "Removing 'epg'"
           rm -r epg
-
-      - name: Check for changes
-        id: check_changes
-        run: |
-          git diff --exit-code || echo "Changes detected" > changes.txt
-
-      - name: Commit and push changes (using GitHub token)
-        if: steps.check_changes.outputs.changes == 'Changes detected'
-        uses: ad-m/github-push-action@v0.6.0
-        with:
-          branch: main
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          commit_message: "Automated guide.xml update (${{ github.event.head_commit.timestamp }})"
