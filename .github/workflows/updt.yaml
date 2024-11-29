@@ -27,12 +27,12 @@ jobs:
       - name: Getting the channels ID
         run: python scripts/filter.py --input database/data/channels.csv --country="JP" --minify channels.json
 
-      - name: Commit channels.json (if modified)
+      - name: Commit channels.json (force commit)
         run: |
           git config --global user.name "GitHub Actions"
           git config --global user.email "actions@github.com"
           git add channels.json
-          git diff --quiet || git commit -m "Save filtered channels.json"
+          git commit -m "Save filtered channels.json" || echo "No changes to commit"
           git push origin main
 
       - name: Downloading the EPG fetchers
@@ -44,12 +44,12 @@ jobs:
       - name: Filtering the channels
         run: python scripts/fetcher.py --input channels.json --sites epg/sites channels.xml
 
-      - name: Commit channels.xml (if modified)
+      - name: Commit channels.xml (force commit)
         run: |
           git config --global user.name "GitHub Actions"
           git config --global user.email "actions@github.com"
           git add channels.xml
-          git diff --quiet || git commit -m "Save filtered channels.xml"
+          git commit -m "Save filtered channels.xml" || echo "No changes to commit"
           git push origin main
 
       - uses: actions/setup-node@v4
@@ -66,45 +66,45 @@ jobs:
           cd epg
           npm run grab -- --channels=../channels.xml --maxConnections=10 --output="../guide.xml"
 
-      - name: Commit guide.xml (raw data, if modified)
+      - name: Commit guide.xml (raw data, force commit)
         run: |
           git config --global user.name "GitHub Actions"
           git config --global user.email "actions@github.com"
           git add guide.xml
-          git diff --quiet || git commit -m "Save raw guide.xml"
+          git commit -m "Save raw guide.xml" || echo "No changes to commit"
           git push origin main
 
       - name: Fixing the document
         run: python scripts/fix.py --input guide.xml guide.xml
 
-      - name: Commit fixed guide.xml (if modified)
+      - name: Commit fixed guide.xml (force commit)
         run: |
           git config --global user.name "GitHub Actions"
           git config --global user.email "actions@github.com"
           git add guide.xml
-          git diff --quiet || git commit -m "Save fixed guide.xml"
+          git commit -m "Save fixed guide.xml" || echo "No changes to commit"
           git push origin main
 
       - name: Merging redundant programs
         run: python scripts/merger.py --input guide.xml guide.xml
 
-      - name: Commit merged guide.xml (if modified)
+      - name: Commit merged guide.xml (force commit)
         run: |
           git config --global user.name "GitHub Actions"
           git config --global user.email "actions@github.com"
           git add guide.xml
-          git diff --quiet || git commit -m "Save merged guide.xml"
+          git commit -m "Save merged guide.xml" || echo "No changes to commit"
           git push origin main
 
       - name: Minify XML
         run: python scripts/minify.py --input guide.xml guide.xml
 
-      - name: Commit minified guide.xml (if modified)
+      - name: Commit minified guide.xml (force commit)
         run: |
           git config --global user.name "GitHub Actions"
           git config --global user.email "actions@github.com"
           git add guide.xml
-          git diff --quiet || git commit -m "Save minified guide.xml"
+          git commit -m "Save minified guide.xml" || echo "No changes to commit"
           git push origin main
 
       - name: Remove the downloaded repositories
