@@ -87,13 +87,13 @@ jobs:
           python scripts/merger.py --input guide.xml guide.xml
           python scripts/minify.py --input guide.xml guide.xml
 
-      # Commit guide.xml
+      # Commit guide.xml (force commit)
       - name: Commit minified guide.xml
         run: |
           git config --global user.name "GitHub Actions"
           git config --global user.email "actions@github.com"
           git add guide.xml
-          git commit -m "Save minified guide.xml" || echo "No changes to commit"
+          git commit --allow-empty -m "Save minified guide.xml (force commit)"
           git push origin main
 
       # Clean up downloaded repositories
