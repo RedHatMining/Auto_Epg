@@ -2931,8 +2931,6 @@
     <channel site="tvim.tv" lang="sq" xmltv_id="NBATVInternational.us" site_id="NBATV">NBA TV</channel>
     <channel site="programme-tv.net" lang="fr" xmltv_id="CNNInternationalEurope.us" site_id="cnn-235">CNN</channel>
     <channel site="tivu.tv" lang="it" xmltv_id="NASATVUHD.us" site_id="181">NASA</channel>
-    <channel site="tv.yandex.ru" lang="ru" xmltv_id="CNBC.us" site_id="713">CNBC</channel>
-    <channel site="tv.yandex.ru" lang="ru" xmltv_id="MGMHD.us" site_id="743">Hollywood HD</channel>
     <channel site="tv.dir.bg" lang="bg" xmltv_id="AXNBlack.us" site_id="264">AXN Black</channel>
     <channel site="tv.dir.bg" lang="bg" xmltv_id="AXNWhite.us" site_id="265">AXN White</channel>
     <channel site="tv.dir.bg" lang="bg" xmltv_id="DiscoveryScience.us" site_id="98">Discovery Science</channel>
