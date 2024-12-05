@@ -2648,11 +2648,11 @@
     <channel site="tv.nu" lang="en" xmltv_id="CuriosityChannel.us" site_id="curiositystream">CuriosityStream</channel>
     <channel site="tv.nu" lang="en" xmltv_id="FightSports.us" site_id="fight-sports">Fight Sports</channel>
     <channel site="tv.nu" lang="en" xmltv_id="HighTV3D.us" site_id="high-tv-3d">High TV 3D</channel>
-    <channel site="tv.nu" lang="sv" xmltv_id="History2Nordic.us" site_id="h2">H2</channel>
     <channel site="tv.nu" lang="en" xmltv_id="NFLNetwork.us" site_id="nfl-network">NFL Network</channel>
     <channel site="tv.nu" lang="en" xmltv_id="PenthouseHD1.us" site_id="penthouse-hd-1">Penthouse HD 1</channel>
     <channel site="tv.nu" lang="en" xmltv_id="PenthouseHD2.us" site_id="penthouse-hd-2">Penthouse HD 2</channel>
     <channel site="tv.nu" lang="en" xmltv_id="PlayboyTVEurope.us" site_id="playboy-tv-europe">Playboy TV Europe</channel>
+    <channel site="tv.nu" lang="sv" xmltv_id="History2Nordic.us" site_id="h2">H2</channel>
     <channel site="cgates.lt" lang="en" xmltv_id="CNNInternationalEurope.us" site_id="cnn-international">CNN International</channel>
     <channel site="cgates.lt" lang="en" xmltv_id="FightSports.us" site_id="fight-sports-hd">Fight Sports HD</channel>
     <channel site="osn.com" lang="ar" xmltv_id="DiscoveryChannelMiddleEastAfrica.us" site_id="DSC">Discovery HD</channel>
@@ -2922,12 +2922,20 @@
     <channel site="player.ee.co.uk" lang="en" xmltv_id="NBCNewsNOW.us" site_id="http://bds.tv/services/BT_772612_1039_SD">NBC News Now</channel>
     <channel site="player.ee.co.uk" lang="en" xmltv_id="NBCNewsNOWHD.us" site_id="http://bds.tv/services/BT_772613_1039_HD">NBC News Now HD</channel>
     <channel site="toonamiaftermath.com" lang="en" xmltv_id="ToonamiAftermathEast.us" site_id="Toonami Aftermath EST">Toonami Aftermath EST</channel>
-    <channel site="starhubtvplus.com" lang="en" xmltv_id="CuriosityChannel.us" site_id="422">Discovery Channel HD</channel>
-    <channel site="starhubtvplus.com" lang="en" xmltv_id="DreamWorksChannelAsia.us" site_id="307">DreamWorks Channel HD</channel>
-    <channel site="starhubtvplus.com" lang="en" xmltv_id="FoxNewsChannel.us" site_id="702">Fox News Channel HD</channel>
-    <channel site="starhubtvplus.com" lang="en" xmltv_id="HistoryAsia.us" site_id="401">HISTORY HD</channel>
-    <channel site="starhubtvplus.com" lang="en" xmltv_id="LifetimeAsia.us" site_id="514">Lifetime HD</channel>
-    <channel site="starhubtvplus.com" lang="en" xmltv_id="TheFilipinoChannelAsia.us" site_id="144">The Filipino Channel</channel>
+    <channel site="starhubtvplus.com" lang="en" xmltv_id="DreamWorksChannelAsia.us" site_id="f9f14a80-9556-4ef8-af7c-5f13279dd83c">DreamWorks Channel HD</channel>
+    <channel site="starhubtvplus.com" lang="en" xmltv_id="FightSports.us" site_id="71da87e9-5d3f-4544-8b6f-e9a374e05bc7">FIGHT SPORTS HD</channel>
+    <channel site="starhubtvplus.com" lang="en" xmltv_id="FoxNewsChannel.us" site_id="628ba4e0-4239-46c3-a5a2-b15273c82009">Fox News Channel</channel>
+    <channel site="starhubtvplus.com" lang="en" xmltv_id="HGTVAsia.us" site_id="2cd14827-0816-400d-b868-62985ec8b627">HGTV</channel>
+    <channel site="starhubtvplus.com" lang="en" xmltv_id="HistoryAsia.us" site_id="5b36348e-1669-4883-9821-6b336cff0d58">HISTORY HD</channel>
+    <channel site="starhubtvplus.com" lang="en" xmltv_id="LifetimeAsia.us" site_id="e2cf7307-0e1d-4dba-a94f-5a0fac85b262">Lifetime HD</channel>
+    <channel site="starhubtvplus.com" lang="en" xmltv_id="TheFilipinoChannelAsia.us" site_id="265c0f76-c798-496d-aca1-f540a70952ec">The Filipino Channel HD</channel>
+    <channel site="starhubtvplus.com" lang="zh" xmltv_id="DreamWorksChannelAsia.us" site_id="f9f14a80-9556-4ef8-af7c-5f13279dd83c">DreamWorks Channel HD</channel>
+    <channel site="starhubtvplus.com" lang="zh" xmltv_id="FightSports.us" site_id="71da87e9-5d3f-4544-8b6f-e9a374e05bc7">FIGHT SPORTS HD</channel>
+    <channel site="starhubtvplus.com" lang="zh" xmltv_id="FoxNewsChannel.us" site_id="628ba4e0-4239-46c3-a5a2-b15273c82009">Fox News Channel</channel>
+    <channel site="starhubtvplus.com" lang="zh" xmltv_id="HGTVAsia.us" site_id="2cd14827-0816-400d-b868-62985ec8b627">HGTV</channel>
+    <channel site="starhubtvplus.com" lang="zh" xmltv_id="HistoryAsia.us" site_id="5b36348e-1669-4883-9821-6b336cff0d58">HISTORY HD</channel>
+    <channel site="starhubtvplus.com" lang="zh" xmltv_id="LifetimeAsia.us" site_id="e2cf7307-0e1d-4dba-a94f-5a0fac85b262">Lifetime HD</channel>
+    <channel site="starhubtvplus.com" lang="zh" xmltv_id="TheFilipinoChannelAsia.us" site_id="265c0f76-c798-496d-aca1-f540a70952ec">The Filipino Channel HD</channel>
     <channel site="tvim.tv" lang="sq" xmltv_id="NBATVInternational.us" site_id="NBATV">NBA TV</channel>
     <channel site="programme-tv.net" lang="fr" xmltv_id="CNNInternationalEurope.us" site_id="cnn-235">CNN</channel>
     <channel site="tivu.tv" lang="it" xmltv_id="NASATVUHD.us" site_id="181">NASA</channel>
