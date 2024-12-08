@@ -2619,7 +2619,6 @@
     <channel site="programacion.tcc.com.uy" lang="es" xmltv_id="Tooncast.us" site_id="388">Tooncast</channel>
     <channel site="mytelly.co.uk" lang="en" xmltv_id="CNNInternationalEurope.us" site_id="95/cnn">CNN</channel>
     <channel site="mytelly.co.uk" lang="en" xmltv_id="CNNInternationalEuropeHD.us" site_id="2012/cnn-hd">CNN HD</channel>
-    <channel site="mytelly.co.uk" lang="en" xmltv_id="EarthxTV.us" site_id="2385/earthx-tv">Earthx TV</channel>
     <channel site="tv.lv" lang="lv" xmltv_id="CNNInternationalEurope.us" site_id="cnn">CNN</channel>
     <channel site="cableplus.com.uy" lang="es" xmltv_id="BYUTVLatinAmerica.us" site_id="574">BYUTV</channel>
     <channel site="cableplus.com.uy" lang="es" xmltv_id="CNNenEspanol.us" site_id="62">CNN EN ESPAÑOL</channel>
