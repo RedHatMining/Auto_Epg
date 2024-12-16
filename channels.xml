@@ -224,7 +224,6 @@
     <channel site="tvmusor.hu" lang="en" xmltv_id="DiscoveryScience.us" site_id="85">Discovery Science</channel>
     <channel site="tvmusor.hu" lang="en" xmltv_id="FoodNetworkEMEA.us" site_id="285">Food Network</channel>
     <channel site="musor.tv" lang="hu" xmltv_id="CNNInternationalEurope.us" site_id="CNN">CNN</channel>
-    <channel site="musor.tv" lang="hu" xmltv_id="DiscoveryScience.us" site_id="DISCOVERYSCI">Discovery Science (HD)</channel>
     <channel site="musor.tv" lang="hu" xmltv_id="FoodNetworkEMEA.us" site_id="FOODNETWORK">Food Network (HD)</channel>
     <channel site="musor.tv" lang="hu" xmltv_id="HGTVPanregional.us" site_id="HGTV">HGTV (HD)</channel>
     <channel site="allente.se" lang="en" xmltv_id="CNNInternationalEurope.us" site_id="0033">CNN (T)</channel>
@@ -2751,7 +2750,6 @@
     <channel site="webtv.delta.nl" lang="nl" xmltv_id="DiscoveryScience.us" site_id="45">Discovery Science</channel>
     <channel site="webtv.delta.nl" lang="en" xmltv_id="FoxNewsChannel.us" site_id="3116">Fox News Channel</channel>
     <channel site="webtv.delta.nl" lang="nl" xmltv_id="InvestigationDiscoveryEurope.us" site_id="16">ID</channel>
-    <channel site="virgintvgo.virginmedia.com" lang="en" xmltv_id="NBCNewsNOW.us" site_id="2255">NBC News Now</channel>
     <channel site="superguidatv.it" lang="en" xmltv_id="FoxNewsChannel.us" site_id="fox-news/sky-news/119">Fox News</channel>
     <channel site="superguidatv.it" lang="it" xmltv_id="CNNInternationalEurope.us" site_id="cnn-intl/sky-news/120">CNN Intl</channel>
     <channel site="superguidatv.it" lang="it" xmltv_id="FoxBusinessNetwork.us" site_id="fox-business/sky-news/121">Fox Business</channel>
@@ -7174,9 +7172,6 @@
     <channel site="cablego.com.pe" lang="es" xmltv_id="PasionesLatinAmerica.us" site_id="2#PASIONES">PASIONES</channel>
     <channel site="sky.com" lang="en" xmltv_id="CNNInternationalEuropeHD.us" site_id="1019">CNN HD</channel>
     <channel site="sky.com" lang="en" xmltv_id="DaystarTV.us" site_id="5541">DAYSTAR HD</channel>
-    <channel site="sky.com" lang="en" xmltv_id="EarthxTV.us" site_id="1086">EarthxTV HD</channel>
-    <channel site="sky.com" lang="en" xmltv_id="InspirationTV.us" site_id="3219">Inspiration TV</channel>
-    <channel site="sky.com" lang="en" xmltv_id="NBCNewsNOW.us" site_id="1039">NBCNewsNowHD</channel>
     <channel site="sky.com" lang="en" xmltv_id="TheWordNetwork.us" site_id="3205">Word Network</channel>
     <channel site="mi.tv" lang="es" xmltv_id="BYUTV.us" site_id="pe#byutv">BYUtv</channel>
     <channel site="mi.tv" lang="es" xmltv_id="NickelodeonPanregional.us" site_id="pe#nickelodeon">Nick</channel>
