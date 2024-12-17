@@ -313,8 +313,9 @@
     <channel site="maxtv.hrvatskitelekom.hr" lang="en" xmltv_id="CNNInternationalEurope.us" site_id="170">CNN Europe</channel>
     <channel site="maxtv.hrvatskitelekom.hr" lang="en" xmltv_id="VividREDHD.us" site_id="761">Vivid Red</channel>
     <channel site="maxtv.hrvatskitelekom.hr" lang="hr" xmltv_id="NickMusic.us" site_id="269">NickMusic</channel>
-    <channel site="tvplus.com.tr" lang="tr" xmltv_id="FX.us" site_id="131">FX</channel>
-    <channel site="tvplus.com.tr" lang="tr" xmltv_id="NBATV.us" site_id="18">NBA TV</channel>
+    <channel site="tvplus.com.tr" lang="tr" xmltv_id="CNNInternationalEurope.us" site_id="cnn-international/4454">CNN International</channel>
+    <channel site="tvplus.com.tr" lang="tr" xmltv_id="FX.us" site_id="fx-hd/131">FX</channel>
+    <channel site="tvplus.com.tr" lang="tr" xmltv_id="NBATV.us" site_id="nba-tv-hd/18">NBA TV</channel>
     <channel site="visionplus.id" lang="id" xmltv_id="DreamWorksChannelAsia.us" site_id="00000000000000000067">Dream Works</channel>
     <channel site="visionplus.id" lang="id" xmltv_id="EWTNAsiaPacific.us" site_id="00000000000000000154">EWTN</channel>
     <channel site="visionplus.id" lang="id" xmltv_id="FightSports.us" site_id="00000000000000000121">Fight Sports</channel>
