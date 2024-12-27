@@ -232,8 +232,6 @@
     <channel site="pickx.be" lang="en" xmltv_id="CNNInternationalEurope.us" site_id="UID2056">CNN HD</channel>
     <channel site="pickx.be" lang="en" xmltv_id="CNNInternationalEurope.us" site_id="UID50032">CNN</channel>
     <channel site="pickx.be" lang="en" xmltv_id="PenthouseGold.us" site_id="UID0461">Penthouse Gold</channel>
-    <channel site="ipko.com" lang="sq" xmltv_id="CNNInternationalEurope.us" site_id="385">CNN int</channel>
-    <channel site="ipko.com" lang="sq" xmltv_id="DiscoveryScience.us" site_id="421">Discovery Science HD</channel>
     <channel site="turksatkablo.com.tr" lang="tr" xmltv_id="FX.us" site_id="553">FX</channel>
     <channel site="turksatkablo.com.tr" lang="tr" xmltv_id="InvestigationDiscoveryEurope.us" site_id="1443">ID</channel>
     <channel site="turksatkablo.com.tr" lang="tr" xmltv_id="NBATV.us" site_id="1828">NBA TV</channel>
