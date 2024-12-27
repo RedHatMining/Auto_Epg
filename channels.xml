@@ -2625,6 +2625,8 @@
     <channel site="tv2go.t-2.net" lang="sl" xmltv_id="VividREDHD.us" site_id="1000508">Vivid Red</channel>
     <channel site="dens.tv" lang="id" xmltv_id="FightSports.us" site_id="60">FIGHT SPORTS HD</channel>
     <channel site="dens.tv" lang="id" xmltv_id="HorizonSports.us" site_id="121">HorizonSports</channel>
+    <channel site="neo.io" lang="en" xmltv_id="RealityKingsTV.us" site_id="reality-kings-tv">Reality Kings TV</channel>
+    <channel site="neo.io" lang="en" xmltv_id="BrazzersTVEurope.us" site_id="brazzers-tv-europe">Brazzers TV Europe</channel>
     <channel site="shahid.mbc.net" lang="fr" xmltv_id="FightSports.us" site_id="901453">FIGHT Sports</channel>
     <channel site="shahid.mbc.net" lang="ar" xmltv_id="FightSports.us" site_id="901453">FIGHT Sports</channel>
     <channel site="shahid.mbc.net" lang="en" xmltv_id="FightSports.us" site_id="901453">FIGHT Sports</channel>
