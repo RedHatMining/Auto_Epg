@@ -7304,6 +7304,7 @@
     <channel site="mi.tv" lang="es" xmltv_id="WarnerChannelPanregional.us" site_id="cl#warner">Warner Channel</channel>
     <channel site="mi.tv" lang="es" xmltv_id="AMCLatinAmerica.us" site_id="mx#amc">AMC</channel>
     <channel site="mi.tv" lang="es" xmltv_id="DisneyChannelNorth.us" site_id="mx#disney">Disney Channel</channel>
+    <channel site="sporttv.pt" lang="pt" xmltv_id="NBATVInternational.us" site_id="7386">NBA TV</channel>
     <channel site="mon-programme-tv.be" lang="fr" xmltv_id="PlayboyTVEurope.us" site_id="258/programme-television-playboy-tv">PLAYBOY TV</channel>
     <channel site="wavve.com" lang="ko" xmltv_id="LifetimeAsia.us" site_id="C5902">LIFETIME</channel>
     <channel site="tv.blue.ch" lang="de" xmltv_id="HGTV.us" site_id="1510">Home &amp; Garden TV</channel>
