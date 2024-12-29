@@ -29,10 +29,9 @@
     <channel site="tv.mail.ru" lang="ru" xmltv_id="PenthouseTV.us" site_id="2795">Penthouse</channel>
     <channel site="tv.mail.ru" lang="ru" xmltv_id="PlayboyTVEurope.us" site_id="1378">Playboy TV</channel>
     <channel site="ziggogo.tv" lang="en" xmltv_id="CNNInternationalEurope.us" site_id="NL_000115_019447">CNN</channel>
-    <channel site="ziggogo.tv" lang="en" xmltv_id="PenthouseGold.us" site_id="NL_000171_019313">Penthouse Gold</channel>
     <channel site="ziggogo.tv" lang="en" xmltv_id="DiscoveryScience.us" site_id="NL_000075_019246">Discovery Science</channel>
-    <channel site="ziggogo.tv" lang="nl" xmltv_id="EvilAngelTV.us" site_id="NL_000172_019302">Evil Angel</channel>
     <channel site="ziggogo.tv" lang="en" xmltv_id="InvestigationDiscoveryEurope.us" site_id="NL_000058_019381">ID</channel>
+    <channel site="ziggogo.tv" lang="en" xmltv_id="PenthouseGold.us" site_id="NL_000171_019313">Penthouse Gold</channel>
     <channel site="vivacom.bg" lang="bg" xmltv_id="AXNBlack.us" site_id="7#AXN Black">AXN Black</channel>
     <channel site="vivacom.bg" lang="bg" xmltv_id="AXNWhite.us" site_id="7#AXN White">AXN White</channel>
     <channel site="vivacom.bg" lang="bg" xmltv_id="BarelyLegalTV.us" site_id="22#Barely Legal">Barely Legal TV</channel>
