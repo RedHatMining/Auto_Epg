@@ -7806,7 +7806,6 @@
     <channel site="meuguia.tv" lang="pt" xmltv_id="CNN.us" site_id="CNN">CNN International</channel>
     <channel site="meuguia.tv" lang="pt" xmltv_id="ESPN.us" site_id="ESP">ESPN</channel>
     <channel site="meuguia.tv" lang="pt" xmltv_id="Tooncast.us" site_id="TOC">Tooncast</channel>
-    <channel site="cosmote.gr" lang="el" xmltv_id="CNNInternationalEurope.us" site_id="cnn">CNN</channel>
     <channel site="pbsguam.org" lang="en" xmltv_id="KGTFDT1.us" site_id="#">PBS Guam</channel>
     <channel site="vidio.com" lang="id" xmltv_id="NBATV.us" site_id="6717">NBA TV</channel>
     <channel site="arianaafgtv.com" lang="en" xmltv_id="ArianaAfghanistanInternationalTV.us" site_id="#">Ariana Afghanistan Television</channel>
