@@ -6451,6 +6451,12 @@
     <channel site="directv.com" lang="es" xmltv_id="UnivisionTlnovelas.us" site_id="454#3757">Univision telenovelas</channel>
     <channel site="directv.com" lang="es" xmltv_id="UnivisionWest.us" site_id="403#5539">Univision West</channel>
     <channel site="directv.com" lang="es" xmltv_id="ViendoMovies.us" site_id="450#3676">Viendo Movies</channel>
+    <channel site="orangetv.orange.es" lang="es" xmltv_id="ToonGogglesenEspanol.us" site_id="11100">Toon Goggles</channel>
+    <channel site="orangetv.orange.es" lang="es" xmltv_id="MTVLive.us" site_id="11051">MTV Live</channel>
+    <channel site="orangetv.orange.es" lang="es" xmltv_id="EWTNEspanaLatinAmerica.us" site_id="1068">EWTN</channel>
+    <channel site="orangetv.orange.es" lang="es" xmltv_id="FightSports.us" site_id="12007">FightSports</channel>
+    <channel site="orangetv.orange.es" lang="es" xmltv_id="CNNInternationalEurope.us" site_id="11022">CNN</channel>
+    <channel site="orangetv.orange.es" lang="es" xmltv_id="TennisChannel.us" site_id="11120">Tennis Channel</channel>
     <channel site="playtv.unifi.com.my" lang="en" xmltv_id="DreamWorksChannelAsia.us" site_id="20000103">Dreamworks HD</channel>
     <channel site="i.mjh.nz" lang="en" xmltv_id="KACVDT1.us" site_id="PBS/all#KACV">KACVDT</channel>
     <channel site="i.mjh.nz" lang="en" xmltv_id="KAETDT1.us" site_id="PBS/all#KAET">KAETDT</channel>
