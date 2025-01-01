@@ -237,6 +237,7 @@
     <channel site="singtel.com" lang="en" xmltv_id="DreamWorksChannelAsia.us" site_id="5233">DreamWorks (HD)</channel>
     <channel site="singtel.com" lang="en" xmltv_id="LifetimeAsia.us" site_id="5302">Lifetime (HD)</channel>
     <channel site="singtel.com" lang="en" xmltv_id="TheFilipinoChannelAsia.us" site_id="5693">The Filipino Channel</channel>
+    <channel site="tivie.id" lang="id" xmltv_id="LifetimeAsia.us" site_id="lifetime">Lifetime</channel>
     <channel site="startimestv.com" lang="en" xmltv_id="BloombergTVAfrica.us" site_id="140">BLOOMBERG</channel>
     <channel site="startimestv.com" lang="en" xmltv_id="ToonamiAfrica.us" site_id="1840186488">TOONAMI</channel>
     <channel site="programtv.onet.pl" lang="en" xmltv_id="BrazzersTVEurope.us" site_id="brazzers-tv-europe-279">Brazzers TV Europe</channel>
