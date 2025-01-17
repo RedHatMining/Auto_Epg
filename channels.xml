@@ -137,16 +137,6 @@
     <channel site="tv24.se" lang="sv" xmltv_id="PlayboyTVEurope.us" site_id="playboy-tv">Playboy TV</channel>
     <channel site="tv24.se" lang="sv" xmltv_id="TBNEurope.us" site_id="tbn-europe">TBN Europe</channel>
     <channel site="wavve.com" lang="ko" xmltv_id="LifetimeAsia.us" site_id="C5902">LIFETIME</channel>
-    <channel site="vivacom.bg" lang="bg" xmltv_id="AXNBlack.us" site_id="7#AXN Black">AXN Black</channel>
-    <channel site="vivacom.bg" lang="bg" xmltv_id="AXNWhite.us" site_id="7#AXN White">AXN White</channel>
-    <channel site="vivacom.bg" lang="bg" xmltv_id="BarelyLegalTV.us" site_id="22#Barely Legal">Barely Legal TV</channel>
-    <channel site="vivacom.bg" lang="bg" xmltv_id="DiscoveryScience.us" site_id="15#Discovery Science HD">Discovery Science</channel>
-    <channel site="vivacom.bg" lang="bg" xmltv_id="FoodNetworkEMEA.us" site_id="19#Food Network">Food Network</channel>
-    <channel site="vivacom.bg" lang="bg" xmltv_id="InvestigationDiscoveryEurope.us" site_id="19#Investigation Discovery">Investigation Discovery</channel>
-    <channel site="vivacom.bg" lang="bg" xmltv_id="PenthouseGold.us" site_id="21#Penthouse HD">Penthouse HD</channel>
-    <channel site="vivacom.bg" lang="bg" xmltv_id="PlayboyTVEurope.us" site_id="21#Playboy HD">Playboy TV HD</channel>
-    <channel site="vivacom.bg" lang="bg" xmltv_id="TLCBalkan.us" site_id="6#TLC">TLC</channel>
-    <channel site="vivacom.bg" lang="en" xmltv_id="CNNInternationalEurope.us" site_id="9#CNN">CNN</channel>
     <channel site="nuevosiglo.com.uy" lang="es" xmltv_id="BloombergTV.us" site_id="BLOOMBERG">BLOOMBERG</channel>
     <channel site="nuevosiglo.com.uy" lang="es" xmltv_id="CartoonitoLatinAmerica.us" site_id="CARTOONITO">CARTOONITO</channel>
     <channel site="nuevosiglo.com.uy" lang="es" xmltv_id="CNNenEspanol.us" site_id="CNN EN ESPAÑOL">CNN EN ESPAÑOL</channel>
