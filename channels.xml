@@ -5345,12 +5345,6 @@
     <channel site="dstv.com" lang="en" xmltv_id="StudioUniversalAfrica.us" site_id="nga#112">Studio Universal HD</channel>
     <channel site="dstv.com" lang="en" xmltv_id="TLCAfrica.us" site_id="nga#135">Discovery TLC HD</channel>
     <channel site="playtv.unifi.com.my" lang="en" xmltv_id="DreamWorksChannelAsia.us" site_id="20000103">Dreamworks HD</channel>
-    <channel site="canalplus-haiti.com" lang="fr" xmltv_id="CNNInternationalLatinAmerica.us" site_id="51032">CNN International Latin America</channel>
-    <channel site="canalplus-haiti.com" lang="fr" xmltv_id="ESPN2Caribbean.us" site_id="51290">ESPN 2 Caribbean</channel>
-    <channel site="canalplus-haiti.com" lang="fr" xmltv_id="ESPNCaribbean.us" site_id="51038">ESPN Caribbean</channel>
-    <channel site="canalplus-haiti.com" lang="fr" xmltv_id="HBOXtremeLatinAmerica.us" site_id="51363">HBO Xtreme Latinoamérica</channel>
-    <channel site="canalplus-haiti.com" lang="fr" xmltv_id="PenthouseBlack.us" site_id="51280">Penthouse Black</channel>
-    <channel site="canalplus-haiti.com" lang="fr" xmltv_id="TelemundoCentralAmerica.us" site_id="51725">Telemundo</channel>
     <channel site="tv.yettel.hu" lang="en" xmltv_id="CNNInternationalEurope.us" site_id="LCH150">CNN</channel>
     <channel site="pickx.be" lang="en" xmltv_id="CNNInternationalEurope.us" site_id="UID2056">CNN HD</channel>
     <channel site="pickx.be" lang="en" xmltv_id="CNNInternationalEurope.us" site_id="UID50032">CNN</channel>
