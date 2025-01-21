@@ -78,17 +78,6 @@
     <channel site="orangetv.orange.es" lang="es" xmltv_id="CNNInternationalEurope.us" site_id="11022">CNN</channel>
     <channel site="orangetv.orange.es" lang="es" xmltv_id="TennisChannel.us" site_id="11120">Tennis Channel</channel>
     <channel site="tvguide.myjcom.jp" lang="ja" xmltv_id="CNN.us" site_id="120_249_65406">CNN U.S.</channel>
-    <channel site="mts.rs" lang="bs" xmltv_id="BabesTV.us" site_id="814#538">Babes</channel>
-    <channel site="mts.rs" lang="bs" xmltv_id="BangU.us" site_id="816#539">Bang U</channel>
-    <channel site="mts.rs" lang="bs" xmltv_id="BrazzersTVEurope.us" site_id="802#297">Brazzers TV</channel>
-    <channel site="mts.rs" lang="bs" xmltv_id="RealityKingsTV.us" site_id="815#547">Reality Kings</channel>
-    <channel site="mts.rs" lang="sr" xmltv_id="AXNAdria.us" site_id="223#110">AXN</channel>
-    <channel site="mts.rs" lang="en" xmltv_id="CNNInternationalEurope.us" site_id="660#196">CNN</channel>
-    <channel site="mts.rs" lang="en" xmltv_id="FoodNetworkEMEA.us" site_id="297#802">Food Network SD/HD</channel>
-    <channel site="mts.rs" lang="en" xmltv_id="FoxNewsChannel.us" site_id="661#774">Fox News SD/HD</channel>
-    <channel site="mts.rs" lang="sr" xmltv_id="HGTVPanregional.us" site_id="371#799">HGTV SD/HD</channel>
-    <channel site="mts.rs" lang="sr" xmltv_id="InvestigationDiscoveryEurope.us" site_id="361#322">ID</channel>
-    <channel site="mts.rs" lang="sr" xmltv_id="TLCBalkan.us" site_id="273#127">TLC SD/HD</channel>
     <channel site="webtv.delta.nl" lang="en" xmltv_id="BabesTV.us" site_id="91">Babes TV</channel>
     <channel site="webtv.delta.nl" lang="en" xmltv_id="BrazzersTVEurope.us" site_id="92">Brazzers TV</channel>
     <channel site="webtv.delta.nl" lang="en" xmltv_id="CNNInternationalEurope.us" site_id="44">CNN</channel>
@@ -229,10 +218,6 @@
     <channel site="singtel.com" lang="en" xmltv_id="DreamWorksChannelAsia.us" site_id="5233">DreamWorks (HD)</channel>
     <channel site="singtel.com" lang="en" xmltv_id="LifetimeAsia.us" site_id="5302">Lifetime (HD)</channel>
     <channel site="singtel.com" lang="en" xmltv_id="TheFilipinoChannelAsia.us" site_id="5693">The Filipino Channel</channel>
-    <channel site="maxtv.hrvatskitelekom.hr" lang="en" xmltv_id="BrazzersTVEurope.us" site_id="295">Brazzers TV</channel>
-    <channel site="maxtv.hrvatskitelekom.hr" lang="en" xmltv_id="CNNInternationalEurope.us" site_id="170">CNN Europe</channel>
-    <channel site="maxtv.hrvatskitelekom.hr" lang="en" xmltv_id="VividREDHD.us" site_id="761">Vivid Red</channel>
-    <channel site="maxtv.hrvatskitelekom.hr" lang="hr" xmltv_id="NickMusic.us" site_id="269">NickMusic</channel>
     <channel site="dishtv.in" lang="en" xmltv_id="CNNInternationalSouthAsia.us" site_id="10000000000770000">CNN INTL</channel>
     <channel site="dishtv.in" lang="en" xmltv_id="MarvelHQ.us" site_id="10000000000350000">SUPER HUNGAMA</channel>
     <channel site="dishtv.in" lang="en" xmltv_id="TheQIndia.us" site_id="10000000075992171">THE Q</channel>
