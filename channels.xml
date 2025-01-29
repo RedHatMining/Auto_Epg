@@ -3291,9 +3291,9 @@
     <channel site="content.astro.com.my" lang="en" xmltv_id="LifetimeAsia.us" site_id="447">Lifetime HD</channel>
     <channel site="content.astro.com.my" lang="en" xmltv_id="WarnerTVAsia.us" site_id="270">Warner TV HD</channel>
     <channel site="content.astro.com.my" lang="en" xmltv_id="WWENetwork.us" site_id="194">WWE Network HD</channel>
-    <channel site="dishtv.in" lang="en" xmltv_id="CNNInternationalSouthAsia.us" site_id="10000000000770000">CNN INTL</channel>
-    <channel site="dishtv.in" lang="en" xmltv_id="MarvelHQ.us" site_id="10000000000350000">SUPER HUNGAMA</channel>
-    <channel site="dishtv.in" lang="en" xmltv_id="TheQIndia.us" site_id="10000000075992171">THE Q</channel>
+    <channel site="dishtv.in" lang="en" xmltv_id="CNNInternationalSouthAsia.us" site_id="10000000000770000">CNN International</channel>
+    <channel site="dishtv.in" lang="en" xmltv_id="MarvelHQ.us" site_id="10000000000350000">Super Hungama</channel>
+    <channel site="dishtv.in" lang="en" xmltv_id="TheQIndia.us" site_id="10000000075992171">TheQ</channel>
     <channel site="ionplustv.com" lang="en" xmltv_id="IONPlusEast.us" site_id="#">ION Plus</channel>
     <channel site="sky.com" lang="en" xmltv_id="CNNInternationalEuropeHD.us" site_id="1019">CNN HD</channel>
     <channel site="sky.com" lang="en" xmltv_id="DaystarTV.us" site_id="5541">DAYSTAR HD</channel>
