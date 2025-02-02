@@ -2421,10 +2421,6 @@
     <channel site="melita.com" lang="en" xmltv_id="FoodNetworkEMEA.us" site_id="f18b81d1-e948-47a6-94d2-73ae397c34bd">Food Network HD</channel>
     <channel site="melita.com" lang="en" xmltv_id="InvestigationDiscoveryEurope.us" site_id="214cf4b1-2b21-4da7-90d1-a5bf2f288d7b">ID HD</channel>
     <channel site="melita.com" lang="en" xmltv_id="TLCPanregional.us" site_id="a81f5b50-a9d0-488a-bd11-0c4eb83b3b54">TLC</channel>
-    <channel site="mtel.ba" lang="en" xmltv_id="BabesTV.us" site_id="914#373">Babes TV</channel>
-    <channel site="mtel.ba" lang="bs" xmltv_id="BangU.us" site_id="916#375">Bang U</channel>
-    <channel site="mtel.ba" lang="en" xmltv_id="BrazzersTVEurope.us" site_id="191#300">Brazzers TV</channel>
-    <channel site="mtel.ba" lang="en" xmltv_id="RealityKingsTV.us" site_id="915#374">Realty Kings</channel>
     <channel site="mncvision.id" lang="id" xmltv_id="DreamWorksChannelAsia.us" site_id="47">Dreamworks</channel>
     <channel site="mncvision.id" lang="id" xmltv_id="FightSports.us" site_id="304">Fight Sports</channel>
     <channel site="mncvision.id" lang="id" xmltv_id="FoxNewsChannel.us" site_id="335">FOX News</channel>
@@ -3417,7 +3413,6 @@
     <channel site="programacion.tcc.com.uy" lang="es" xmltv_id="PlayboyTVLatinAmerica.us" site_id="435">Playboy</channel>
     <channel site="programacion.tcc.com.uy" lang="es" xmltv_id="SonyMoviesLatinAmerica.us" site_id="468">Sony Movies</channel>
     <channel site="programacion.tcc.com.uy" lang="es" xmltv_id="Tooncast.us" site_id="388">Tooncast</channel>
-    <channel site="cablego.com.pe" lang="es" xmltv_id="PasionesLatinAmerica.us" site_id="2#PASIONES">PASIONES</channel>
     <channel site="siba.com.co" lang="es" xmltv_id="AMCLatinAmerica.us" site_id="532">AMC</channel>
     <channel site="siba.com.co" lang="es" xmltv_id="AnimalPlanetLatinAmerica.us" site_id="382">Animal Planet</channel>
     <channel site="siba.com.co" lang="es" xmltv_id="AXNAndes.us" site_id="384">AXN</channel>
