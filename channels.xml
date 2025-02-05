@@ -3975,8 +3975,8 @@
     <channel site="ontvtonight.com" lang="en" xmltv_id="WXXIDT2.us" site_id="ca#69024584/wxxi-world">WXXI World</channel>
     <channel site="ontvtonight.com" lang="en" xmltv_id="WXXIDT3.us" site_id="ca#69024579/wxxi-create">WXXI Create</channel>
     <channel site="ontvtonight.com" lang="en" xmltv_id="WXXIDT4.us" site_id="ca#69024585/wxxi-pbs-kids">WXXI PBS Kids</channel>
-    <channel site="pickx.be" lang="en" xmltv_id="CNNInternationalEurope.us" site_id="UID2056">CNN HD</channel>
     <channel site="pickx.be" lang="en" xmltv_id="CNNInternationalEurope.us" site_id="UID50032">CNN</channel>
+    <channel site="pickx.be" lang="en" xmltv_id="CNNInternationalEuropeHD.us" site_id="UID2056">CNN HD</channel>
     <channel site="pickx.be" lang="en" xmltv_id="PenthouseGold.us" site_id="UID0461">Penthouse Gold</channel>
     <channel site="guidatv.sky.it" lang="en" xmltv_id="CNNInternationalEurope.us" site_id="DTH#312">CNN Intl.</channel>
     <channel site="guidatv.sky.it" lang="en" xmltv_id="FoxBusinessNetwork.us" site_id="DTH#6741">Fox Business</channel>
