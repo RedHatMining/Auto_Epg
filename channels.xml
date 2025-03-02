@@ -2246,7 +2246,6 @@
     <channel site="skyperfectv.co.jp" lang="ja" xmltv_id="CNN.us" site_id="premium_567">CNN U.S.</channel>
     <channel site="dstv.com" lang="en" xmltv_id="BETAfrica.us" site_id="nga#129">BET</channel>
     <channel site="dstv.com" lang="en" xmltv_id="BloombergTVAfrica.us" site_id="nga#411">Bloomberg Television</channel>
-    <channel site="dstv.com" lang="en" xmltv_id="BoomerangEMEA.us" site_id="nga#302">Cartoonito</channel>
     <channel site="dstv.com" lang="en" xmltv_id="CNNInternationalEurope.us" site_id="nga#401">CNN International</channel>
     <channel site="dstv.com" lang="en" xmltv_id="ComedyCentralAfrica.us" site_id="nga#122">Comedy Central</channel>
     <channel site="dstv.com" lang="en" xmltv_id="CuriosityChannel.us" site_id="nga#185">Curiosity Channel</channel>
@@ -3342,7 +3341,6 @@
     <channel site="content.astro.com.my" lang="en" xmltv_id="LifetimeAsia.us" site_id="447">Lifetime HD</channel>
     <channel site="content.astro.com.my" lang="en" xmltv_id="WarnerTVAsia.us" site_id="270">Warner TV HD</channel>
     <channel site="content.astro.com.my" lang="en" xmltv_id="WWENetwork.us" site_id="194">WWE Network HD</channel>
-    <channel site="nowplayer.now.com" lang="en" xmltv_id="BoomerangSoutheastAsia.us" site_id="445">Cartoonito</channel>
     <channel site="nowplayer.now.com" lang="en" xmltv_id="DreamWorksChannelAsia.us" site_id="440">DreamWorks</channel>
     <channel site="nowplayer.now.com" lang="en" xmltv_id="FightSports.us" site_id="642">NBA TV</channel>
     <channel site="nowplayer.now.com" lang="en" xmltv_id="HGTVAsia.us" site_id="529">HGTV</channel>
@@ -3351,7 +3349,6 @@
     <channel site="nowplayer.now.com" lang="en" xmltv_id="OutdoorChannelInternational.us" site_id="221">Outdoor Channel</channel>
     <channel site="nowplayer.now.com" lang="en" xmltv_id="TheFilipinoChannelAsia.us" site_id="725">TFC</channel>
     <channel site="nowplayer.now.com" lang="en" xmltv_id="WarnerTVAsia.us" site_id="510">WarnerTV</channel>
-    <channel site="nowplayer.now.com" lang="zh" xmltv_id="BoomerangSoutheastAsia.us" site_id="445">Cartoonito</channel>
     <channel site="nowplayer.now.com" lang="zh" xmltv_id="DreamWorksChannelAsia.us" site_id="440">DreamWorks</channel>
     <channel site="nowplayer.now.com" lang="zh" xmltv_id="FightSports.us" site_id="642">NBA TV</channel>
     <channel site="nowplayer.now.com" lang="zh" xmltv_id="HGTVAsia.us" site_id="529">HGTV</channel>
@@ -4246,7 +4243,6 @@
     <channel site="mujtvprogram.cz" lang="cs" xmltv_id="GolfChannel.us" site_id="225">Golf Channel</channel>
     <channel site="mujtvprogram.cz" lang="cs" xmltv_id="InvestigationDiscoveryEurope.us" site_id="384">Investigation Discovery</channel>
     <channel site="mujtvprogram.cz" lang="cs" xmltv_id="TLCPanregional.us" site_id="276">TLC</channel>
-    <channel site="mujtvprogram.cz" lang="de" xmltv_id="BoomerangEMEA.us" site_id="303">SUPER RTL</channel>
     <channel site="mujtvprogram.cz" lang="en" xmltv_id="BrazzersTVEurope.us" site_id="377">Brazzers TV Europe</channel>
     <channel site="mujtvprogram.cz" lang="en" xmltv_id="CNNInternationalEurope.us" site_id="23">CNN</channel>
     <channel site="mujtvprogram.cz" lang="en" xmltv_id="PlayboyTVEurope.us" site_id="103">Playboy</channel>
