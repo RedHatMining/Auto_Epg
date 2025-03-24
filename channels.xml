@@ -3487,6 +3487,8 @@
     <channel site="tv.movistar.com.pe" lang="es" xmltv_id="Tooncast.us" site_id="lch5652">TOONCAST</channel>
     <channel site="chaines-tv.orange.fr" lang="en" xmltv_id="CNNInternationalEurope.us" site_id="53">CNN INTERNATIONAL</channel>
     <channel site="zap.co.ao" lang="pt" xmltv_id="FightSports.us" site_id="2437">Fight Sports</channel>
+    <channel site="elcinema.com" lang="en" xmltv_id="DiscoveryChannelMiddleEastAfrica.us" site_id="1272">Discovery</channel>
+    <channel site="elcinema.com" lang="ar" xmltv_id="DiscoveryChannelMiddleEastAfrica.us" site_id="1272">ديسكفري</channel>
     <channel site="tv24.se" lang="en" xmltv_id="CNNInternationalEurope.us" site_id="cnn-international">CNN International</channel>
     <channel site="tv24.se" lang="en" xmltv_id="FightSports.us" site_id="fight-sports">Fight Sports</channel>
     <channel site="tv24.se" lang="en" xmltv_id="FoodNetworkEMEA.us" site_id="food-network">Food Network</channel>
