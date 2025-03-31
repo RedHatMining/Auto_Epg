@@ -2537,6 +2537,7 @@
     <channel site="tv2go.t-2.net" lang="sl" xmltv_id="VividREDHD.us" site_id="1000508">Vivid Red</channel>
     <channel site="worldfishingnetwork.com" lang="en" xmltv_id="WorldFishingNetwork.us" site_id="#">World Fishing Network</channel>
     <channel site="allente.se" lang="sv" xmltv_id="History2Nordic.us" site_id="1004">HISTORY 2 HD (T)</channel>
+    <channel site="xumo.tv" lang="en" xmltv_id="WTVDDT1247News.us" site_id="300#99951175">WTVD ABC11 24/7 Streaming Channel</channel>
     <channel site="xumo.tv" lang="en" xmltv_id="AmericasTestKitchen.us" site_id="150#99991369">America's Test Kitchen</channel>
     <channel site="xumo.tv" lang="en" xmltv_id="AntiquesRoadshowUK.us" site_id="200#99991783">Antiques Roadshow UK</channel>
     <channel site="xumo.tv" lang="en" xmltv_id="ArchitecturalDigest.us" site_id="150#99991229">Architectural Digest</channel>
@@ -3071,6 +3072,7 @@
     <channel site="tvpassport.com" lang="en" xmltv_id="KMJFLD2.us" site_id="antenna-kmjf-ld2-columbus-ne/31088">Antenna (KMJF-LD2) Columbus, NE</channel>
     <channel site="tvpassport.com" lang="en" xmltv_id="KTVIDT2.us" site_id="antenna-ktvi-dt2-st-louis-mo/9438">Antenna (KTVI-DT2) St. Louis, MO</channel>
     <channel site="tvpassport.com" lang="en" xmltv_id="KWVCLD2.us" site_id="antenna-kwvc-ld2-malaga-ect-wa/31089">Antenna (KWVC-LD2) Malaga, Ect, WA</channel>
+    <channel site="tvpassport.com" lang="en" xmltv_id="WLFLDT4.us" site_id="antenna-wlfl4-raleigh-nc/35198">Antenna (WLFL4) Raleigh, NC</channel>
     <channel site="tvpassport.com" lang="en" xmltv_id="WPIXDT2.us" site_id="antenna-wpix-dt2-new-york-ny-hd/8737">Antenna (WPIX-DT2) New York, NY HD</channel>
     <channel site="tvpassport.com" lang="en" xmltv_id="WMBCDT6.us" site_id="azteca-wmbc-newton-nj/11536">Azteca (WMBC) Newton, NJ</channel>
     <channel site="tvpassport.com" lang="en" xmltv_id="beINSportsUSA.us" site_id="bein-sport-usa-hd/10854">beIN Sport USA HD</channel>
@@ -3526,6 +3528,7 @@
     <channel site="tvpassport.com" lang="en" xmltv_id="WYOUDT1.us" site_id="cbs-wyou-scranton-pa-hd/7535">CBS (WYOU) Scranton, PA HD</channel>
     <channel site="tvpassport.com" lang="en" xmltv_id="WYOUDT1.us" site_id="cbs-wyou-scranton-pa/1641">CBS (WYOU) Scranton, PA</channel>
     <channel site="tvpassport.com" lang="en" xmltv_id="WZMQDT2.us" site_id="cbs-zbm-hamilton-bermuda/5002">CBS (ZBM) Hamilton, Bermuda</channel>
+    <channel site="tvpassport.com" lang="en" xmltv_id="WTVDDT3.us" site_id="charge-wtvd3-raleigh-nc/5225">Charge! (WTVD3) Raleigh, NC</channel>
     <channel site="tvpassport.com" lang="en" xmltv_id="Charge.us" site_id="charge/15228">CHARGE!</channel>
     <channel site="tvpassport.com" lang="en" xmltv_id="CNBC.us" site_id="cnbc-usa-hd/6119">CNBC USA HD</channel>
     <channel site="tvpassport.com" lang="en" xmltv_id="CNBC.us" site_id="cnbc-usa/201">CNBC USA</channel>
@@ -3533,16 +3536,23 @@
     <channel site="tvpassport.com" lang="en" xmltv_id="Comet.us" site_id="comet-tv/16811">Comet TV</channel>
     <channel site="tvpassport.com" lang="en" xmltv_id="WEDWDT1.us" site_id="connecticut-public-television-wedw-bridgeport/2065">Connecticut Public Television (WEDW) Bridgeport</channel>
     <channel site="tvpassport.com" lang="en" xmltv_id="CourtTV.us" site_id="court-tv-network/33650">Court TV Network</channel>
+    <channel site="tvpassport.com" lang="en" xmltv_id="WRPXDT2.us" site_id="court-tv-wrpx-tv2-raleigh-durham-nc/12001">Court TV (WRPX-TV2) Raleigh-Durham, NC</channel>
     <channel site="tvpassport.com" lang="en" xmltv_id="WNBCDT2.us" site_id="cozi-wnbc-dt2-new-york-ny/10919">Cozi (WNBC-DT2) New York, NY</channel>
+    <channel site="tvpassport.com" lang="en" xmltv_id="WRALDT2.us" site_id="cozi-wral-dt2-raleigh-durham-nc/8340">Cozi (WRAL-DT2) Raleigh-Durham, NC</channel>
     <channel site="tvpassport.com" lang="en" xmltv_id="KASWDT1.us" site_id="cw-kasw-phoenix-az/1181">CW (KASW) Phoenix, AZ</channel>
     <channel site="tvpassport.com" lang="en" xmltv_id="WBKPDT1.us" site_id="cw-wbkp-calumet-mi/4943">CW (WBKP) Calumet, MI</channel>
     <channel site="tvpassport.com" lang="en" xmltv_id="WBSFDT1.us" site_id="cw-wbsf-flint-mi/6958">CW (WBSF) Flint, MI</channel>
     <channel site="tvpassport.com" lang="en" xmltv_id="WCCTDT1.us" site_id="cw-wcct-hartford-ct/2057">CW (WCCT) Hartford, CT</channel>
     <channel site="tvpassport.com" lang="en" xmltv_id="WCWJDT1.us" site_id="cw-wcwj-jacksonville-fl/2046">CW (WCWJ) Jacksonville, FL</channel>
     <channel site="tvpassport.com" lang="en" xmltv_id="WKCFDT1.us" site_id="cw-wkcf-orlando-fl/2515">CW (WKCF) Orlando, FL</channel>
+    <channel site="tvpassport.com" lang="en" xmltv_id="WLFLDT1.us" site_id="cw-wlfl-raleigh-nc-hd/4821">CW (WLFL) Raleigh, NC HD</channel>
+    <channel site="tvpassport.com" lang="en" xmltv_id="WLFLDT1.us" site_id="cw-wlfl-raleigh-nc/1286">CW (WLFL) Raleigh, NC</channel>
     <channel site="tvpassport.com" lang="en" xmltv_id="WPXTDT1.us" site_id="cw-wpxt-portland-me/2695">CW (WPXT) Portland, ME</channel>
+    <channel site="tvpassport.com" lang="en" xmltv_id="WRAZDT3.us" site_id="dabl-wraz3-raleigh-durham-nc/35201">DABL (WRAZ3) Raleigh-Durham, NC</channel>
     <channel site="tvpassport.com" lang="en" xmltv_id="DaystarTV.us" site_id="daystar--network-hd/13634">Daystar - Network HD</channel>
     <channel site="tvpassport.com" lang="en" xmltv_id="DaystarTV.us" site_id="daystar--network/6828">Daystar - Network</channel>
+    <channel site="tvpassport.com" lang="en" xmltv_id="WACNLP1.us" site_id="daystar-wacn-raleigh-nc/5074">Daystar (WACN) Raleigh, NC</channel>
+    <channel site="tvpassport.com" lang="en" xmltv_id="WRPXDT6.us" site_id="defy-wrpx-tv6-raleigh-nc/11719">Defy (WRPX-TV6) Raleigh, NC</channel>
     <channel site="tvpassport.com" lang="en" xmltv_id="DiscoveryFamily.us" site_id="discovery-family-channel-hd/8518">Discovery Family Channel HD</channel>
     <channel site="tvpassport.com" lang="en" xmltv_id="DiscoveryLife.us" site_id="discovery-life-channel-hd/16423">Discovery Life Channel HD</channel>
     <channel site="tvpassport.com" lang="en" xmltv_id="DiscoveryLife.us" site_id="discovery-life-channel/1273">Discovery Life Channel</channel>
@@ -4006,15 +4016,22 @@
     <channel site="tvpassport.com" lang="en" xmltv_id="GolfChannel.us" site_id="golf-channel-usa-hd/6039">Golf Channel USA HD</channel>
     <channel site="tvpassport.com" lang="en" xmltv_id="GolfChannel.us" site_id="golf-channel-usa/193">Golf Channel USA</channel>
     <channel site="tvpassport.com" lang="en" xmltv_id="Grit.us" site_id="grit-network/14377">Grit Network</channel>
+    <channel site="tvpassport.com" lang="en" xmltv_id="WNCNDT3.us" site_id="grit-tv-wncn3-goldsboro-nc/19495">Grit TV (WNCN3) Goldsboro, NC</channel>
     <channel site="tvpassport.com" lang="en" xmltv_id="HDNetMovies.us" site_id="hdnet-movies/4267">HDNet Movies</channel>
     <channel site="tvpassport.com" lang="en" xmltv_id="HLN.us" site_id="hln-hd/6994">HLN HD</channel>
     <channel site="tvpassport.com" lang="en" xmltv_id="HLN.us" site_id="hln/425">HLN</channel>
     <channel site="tvpassport.com" lang="en" xmltv_id="HopeChannelNorthAmerica.us" site_id="hope-channel/6827">Hope Channel</channel>
     <channel site="tvpassport.com" lang="en" xmltv_id="HSN2.us" site_id="hsn-2/13495">HSN 2</channel>
     <channel site="tvpassport.com" lang="en" xmltv_id="HSN.us" site_id="hsn--home-shopping-network/14985">HSN - Home Shopping Network</channel>
+    <channel site="tvpassport.com" lang="en" xmltv_id="WTVDDT4.us" site_id="hsn-wtvd4-raleigh-nc/36166">HSN (WTVD4) Raleigh, NC</channel>
     <channel site="tvpassport.com" lang="en" xmltv_id="WNMFLD1.us" site_id="infomercials-wnmf-new-york-ny/17860">Infomercials (WNMF) New York, NY</channel>
+    <channel site="tvpassport.com" lang="en" xmltv_id="WNCNDT4.us" site_id="ion-mystery-wncn4-goldsboro-nc/33270">ION Mystery (WNCN4) Goldsboro, NC</channel>
+    <channel site="tvpassport.com" lang="en" xmltv_id="WRALDT4.us" site_id="ion-mystery-wral-tv4-raleigh-nc/37397">ION Mystery (WRAL-TV4) Raleigh, NC</channel>
+    <channel site="tvpassport.com" lang="en" xmltv_id="WRPXDT3.us" site_id="ion-mystery-wrpx-tv3-raleigh-durham-nc/12059">ION Mystery (WRPX-TV3) Raleigh-Durham, NC</channel>
     <channel site="tvpassport.com" lang="en" xmltv_id="WPXNDT1.us" site_id="ion-wpxn-new-york-ny/1778">ION (WPXN) New York, NY</channel>
     <channel site="tvpassport.com" lang="en" xmltv_id="WPXUDT1.us" site_id="ion-wpxu-jacksonville-nc/7774">ION (WPXU) Jacksonville, NC</channel>
+    <channel site="tvpassport.com" lang="en" xmltv_id="WRPXDT1.us" site_id="ion-wrpx-raleigh-durham-nc-hd/7773">ION (WRPX) Raleigh-Durham, NC HD</channel>
+    <channel site="tvpassport.com" lang="en" xmltv_id="WRPXDT1.us" site_id="ion-wrpx-raleigh-durham-nc/1302">ION (WRPX) Raleigh-Durham, NC</channel>
     <channel site="tvpassport.com" lang="en" xmltv_id="JewelryTV.us" site_id="jewelry-television/3000">Jewelry Television</channel>
     <channel site="tvpassport.com" lang="en" xmltv_id="KCALDT1.us" site_id="kcal-los-angeles/1826">KCAL Los Angeles</channel>
     <channel site="tvpassport.com" lang="en" xmltv_id="KCETDT1.us" site_id="kcet-los-angeles-ca/2310">KCET Los Angeles, CA</channel>
@@ -4022,6 +4039,8 @@
     <channel site="tvpassport.com" lang="en" xmltv_id="Laff.us" site_id="laff--network-hd/20170">Laff - Network HD</channel>
     <channel site="tvpassport.com" lang="en" xmltv_id="Laff.us" site_id="laff--network/20169">Laff - Network</channel>
     <channel site="tvpassport.com" lang="en" xmltv_id="LawCrime.us" site_id="law--crime-network/32823">Law &amp; Crime Network</channel>
+    <channel site="tvpassport.com" lang="en" xmltv_id="WTVDDT2.us" site_id="localish-wtvd-dt2-raleigh-nc-hd/18858">Localish (WTVD-DT2) Raleigh, NC HD</channel>
+    <channel site="tvpassport.com" lang="en" xmltv_id="WTVDDT2.us" site_id="localish-wtvd-dt2-raleigh-nc/8853">Localish (WTVD-DT2) Raleigh, NC</channel>
     <channel site="tvpassport.com" lang="en" xmltv_id="MeTV.us" site_id="metv--network-hd/20357">MeTV - Network HD</channel>
     <channel site="tvpassport.com" lang="en" xmltv_id="MeTV.us" site_id="metv--network/16325">MeTV - Network</channel>
     <channel site="tvpassport.com" lang="en" xmltv_id="K20JLD2.us" site_id="metv-k20jl-d2-ellensburg-wa/15133">MeTV (K20JL-D2) Ellensburg, WA</channel>
@@ -4089,6 +4108,7 @@
     <channel site="tvpassport.com" lang="en" xmltv_id="WMURDT2.us" site_id="metv-wmur-dt2-manchers-nh/11273">MeTV (WMUR-DT2) Manchers, NH</channel>
     <channel site="tvpassport.com" lang="en" xmltv_id="WNYFCD2.us" site_id="metv-wnyf-cd2-watertown-ny/19439">MeTV (WNYF-CD2) Watertown, NY</channel>
     <channel site="tvpassport.com" lang="en" xmltv_id="WOLODT4.us" site_id="metv-wolo-dt4-columbia-sc-hd/10475">MeTV (WOLO-DT4) Columbia, SC HD</channel>
+    <channel site="tvpassport.com" lang="en" xmltv_id="WRAZDT2.us" site_id="metv-wraz2-raleigh-durham-nc/9989">MeTV (WRAZ2) Raleigh-Durham, NC</channel>
     <channel site="tvpassport.com" lang="en" xmltv_id="WRAZDT2.us" site_id="metv-wraz-dt2-raleigh-durham-nc-hd/9990">MeTV (WRAZ-DT2) Raleigh-Durham, NC HD</channel>
     <channel site="tvpassport.com" lang="en" xmltv_id="WSWBDT2.us" site_id="metv-wswb-dt2-scranton-pa-hd/9299">MeTV (WSWB-DT2) Scranton, PA HD</channel>
     <channel site="tvpassport.com" lang="en" xmltv_id="WTHRDT3.us" site_id="metv-wthr-dt3-indianapolis-in-hd/11359">MeTV (WTHR-DT3) Indianapolis, IN HD</channel>
@@ -4107,6 +4127,7 @@
     <channel site="tvpassport.com" lang="en" xmltv_id="WNYODT1.us" site_id="mnt-wnyo-buffalo-ny/324">MNT (WNYO) Buffalo, NY</channel>
     <channel site="tvpassport.com" lang="en" xmltv_id="WPHLDT1.us" site_id="mnt-wphl-philadelphia-pa-hd/7168">MNT (WPHL) Philadelphia, PA HD</channel>
     <channel site="tvpassport.com" lang="en" xmltv_id="WPHLDT1.us" site_id="mnt-wphl-philadelphia-pa/2569">MNT (WPHL) Philadelphia, PA</channel>
+    <channel site="tvpassport.com" lang="en" xmltv_id="WRDCDT1.us" site_id="mnt-wrdc-raleigh-nc-hd/7776">MNT (WRDC) Raleigh, NC HD</channel>
     <channel site="tvpassport.com" lang="en" xmltv_id="WWORDT1.us" site_id="mnt-wwor-new-york-ny/1612">MNT (WWOR) New York, NY</channel>
     <channel site="tvpassport.com" lang="en" xmltv_id="MSG2.us" site_id="msg-2-hd/31491">MSG 2 HD</channel>
     <channel site="tvpassport.com" lang="en" xmltv_id="MSG.us" site_id="msg-madison-square-gardens-hd/4695">MSG (Madison Square Gardens) HD</channel>
@@ -4625,11 +4646,13 @@
     <channel site="tvpassport.com" lang="en" xmltv_id="QVC.us" site_id="qvc/14683">QVC</channel>
     <channel site="tvpassport.com" lang="en" xmltv_id="Reelz.us" site_id="reelzchannel/4175">ReelzChannel</channel>
     <channel site="tvpassport.com" lang="en" xmltv_id="Revolt.us" site_id="revolt-tv/11301">Revolt TV</channel>
+    <channel site="tvpassport.com" lang="en" xmltv_id="WNCNDT2.us" site_id="rewind-tv-us-wncn2-raleigh-durham-nc/9991">Rewind TV US (WNCN2) Raleigh-Durham, NC</channel>
     <channel site="tvpassport.com" lang="en" xmltv_id="ScrippsNews.us" site_id="scripps-news/5999">Scripps News</channel>
     <channel site="tvpassport.com" lang="en" xmltv_id="SECNetwork.us" site_id="sec-network-hd/13712">SEC Network HD</channel>
     <channel site="tvpassport.com" lang="en" xmltv_id="SECNetwork.us" site_id="sec-network/13711">SEC Network</channel>
     <channel site="tvpassport.com" lang="en" xmltv_id="ShopLC.us" site_id="shop-lc/36273">Shop LC</channel>
     <channel site="tvpassport.com" lang="en" xmltv_id="Smile.us" site_id="smile/5275">Smile</channel>
+    <channel site="tvpassport.com" lang="en" xmltv_id="WRALDT3.us" site_id="start-tv-wral-tv3-raleigh-nc/33861">Start TV (WRAL-TV3) Raleigh, NC</channel>
     <channel site="tvpassport.com" lang="en" xmltv_id="TBD.us" site_id="tbd-tv/31478">TBD TV</channel>
     <channel site="tvpassport.com" lang="en" xmltv_id="WTBYDT1.us" site_id="tbn-wtby-new-york-ny/2575">TBN (WTBY) New York, NY</channel>
     <channel site="tvpassport.com" lang="en" xmltv_id="KVEADT1.us" site_id="telemundo-kvea-los-angeles-ca/2611">Telemundo (KVEA) Los Angeles, CA</channel>
@@ -4794,6 +4817,17 @@
     <channel site="sky.co.nz" lang="en" xmltv_id="DaystarTV.us" site_id="202">Daystar TV Network</channel>
     <channel site="sky.co.nz" lang="en" xmltv_id="FoxNewsChannel.us" site_id="88">Fox News</channel>
     <channel site="sky.co.nz" lang="en" xmltv_id="TheFilipinoChannelAsia.us" site_id="160">The Filipino Channel</channel>
+    <channel site="epgshare01.online" lang="en" xmltv_id="WTVDDT1.us" site_id="US_LOCALS2#ABC.(WTVD).Raleigh,.NC.us">ABC (WTVD) Raleigh, NC</channel>
+    <channel site="epgshare01.online" lang="en" xmltv_id="WNCNDT1.us" site_id="US_LOCALS2#CBS.(WNCN).Raleigh-Durham,.NC.us">CBS (WNCN) Raleigh-Durham, NC</channel>
+    <channel site="epgshare01.online" lang="en" xmltv_id="WLFLDT1.us" site_id="US_LOCALS2#CW.(WLFL).Raleigh,.NC.us">CW (WLFL) Raleigh, NC</channel>
+    <channel site="epgshare01.online" lang="en" xmltv_id="WIRPLD1.us" site_id="US_LOCALS2#Estrella.(WIRP-LD).Raleigh,.NC.us">Estrella (WIRP-LD) Raleigh, NC</channel>
+    <channel site="epgshare01.online" lang="en" xmltv_id="WRAZDT1.us" site_id="US_LOCALS2#FOX.(WRAZ).Raleigh-Durham,.NC.us">FOX (WRAZ) Raleigh-Durham, NC</channel>
+    <channel site="epgshare01.online" lang="en" xmltv_id="WTVDDT2.us" site_id="US_LOCALS2#Localish.(WTVD-DT2).Raleigh,.NC.us">Localish (WTVD-DT2) Raleigh, NC</channel>
+    <channel site="epgshare01.online" lang="en" xmltv_id="WRDCDT1.us" site_id="US_LOCALS2#MNT.(WRDC).Raleigh,.NC.us">MNT (WRDC) Raleigh, NC</channel>
+    <channel site="epgshare01.online" lang="en" xmltv_id="WRALDT1.us" site_id="US_LOCALS2#NBC.(WRAL).Raleigh-Durham,.NC.us">NBC (WRAL) Raleigh-Durham, NC</channel>
+    <channel site="epgshare01.online" lang="en" xmltv_id="WXIIDT1.us" site_id="US_LOCALS2#NBC.(WXII).Winston-Salem,.NC.us">NBC (WXII) Winston-Salem, NC</channel>
+    <channel site="epgshare01.online" lang="en" xmltv_id="WIRPLD6.us" site_id="US_LOCALS2#SSTN.(WIRP-LD6).Raleigh,.NC.us">SSTN (WIRP-LD6) Raleigh, NC</channel>
+    <channel site="epgshare01.online" lang="en" xmltv_id="WAUGLD2.us" site_id="US_LOCALS2#WAUG.-.Raleigh,.NC.us">WAUG - Raleigh, NC</channel>
     <channel site="programacion-tv.elpais.com" lang="es" xmltv_id="AXNWhite.us" site_id="512">AXN Movies</channel>
     <channel site="programacion-tv.elpais.com" lang="es" xmltv_id="CanalSUR.us" site_id="30">Canal Sur</channel>
     <channel site="programacion-tv.elpais.com" lang="es" xmltv_id="DiscoveryenEspanol.us" site_id="146">Discovery Channel</channel>
@@ -5735,6 +5769,7 @@
     <channel site="i.mjh.nz" lang="en" xmltv_id="WildNOut.us" site_id="SamsungTVPlus/us#USBA3000100X">Wild 'N Out</channel>
     <channel site="i.mjh.nz" lang="en" xmltv_id="WipeoutXtra.us" site_id="SamsungTVPlus/us#USBB4400018LR">Wipeout Xtra</channel>
     <channel site="i.mjh.nz" lang="en" xmltv_id="XploreTV.us" site_id="SamsungTVPlus/us#USBC2100008DP">Xplore</channel>
+    <channel site="i.mjh.nz" lang="en" xmltv_id="WTVDDT1247News.us" site_id="Roku/epg#roku-ce021f67f6595e8a8a8cca45a5561440">WTVD ABC11 North Carolina</channel>
     <channel site="i.mjh.nz" lang="en" xmltv_id="DoctorWho.us" site_id="Foxtel/epg#UP2">Doctor Who</channel>
     <channel site="i.mjh.nz" lang="en" xmltv_id="FoxNewsChannel.us" site_id="Foxtel/epg#FNC">FOX News</channel>
     <channel site="i.mjh.nz" lang="en" xmltv_id="MSNBC.us" site_id="Foxtel/epg#MSN">MSNBC</channel>
