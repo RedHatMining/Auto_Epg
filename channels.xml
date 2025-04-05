@@ -1945,6 +1945,48 @@
     <channel site="dstv.com" lang="en" xmltv_id="SBNTVInternational.us" site_id="nga#345">SBN</channel>
     <channel site="dstv.com" lang="en" xmltv_id="StudioUniversalAfrica.us" site_id="nga#112">Studio Universal HD</channel>
     <channel site="dstv.com" lang="en" xmltv_id="TLCAfrica.us" site_id="nga#135">Discovery TLC HD</channel>
+    <channel site="epg.iptvx.one" lang="ru" xmltv_id="ABCNewsLive.us" site_id="abc-news-live-us">ABC News Live [US]</channel>
+    <channel site="epg.iptvx.one" lang="ru" xmltv_id="beINSportsUSA.us" site_id="bein-sport-us">beIN Sports [US]</channel>
+    <channel site="epg.iptvx.one" lang="ru" xmltv_id="CartoonNetwork.us" site_id="cartoon-network">Cartoon Network</channel>
+    <channel site="epg.iptvx.one" lang="ru" xmltv_id="CBSSportsNetworkUSA.us" site_id="cbs-sports-network-us">CBS Sports Network [US]</channel>
+    <channel site="epg.iptvx.one" lang="ru" xmltv_id="Cinemax.us" site_id="cinemax">Cinemax</channel>
+    <channel site="epg.iptvx.one" lang="ru" xmltv_id="ClubbingTV.us" site_id="clubbing-tv">Clubbing TV</channel>
+    <channel site="epg.iptvx.one" lang="ru" xmltv_id="CNBC.us" site_id="cnbc-us">CNBC [US]</channel>
+    <channel site="epg.iptvx.one" lang="ru" xmltv_id="GNCAmerica.us" site_id="cnl-amerika">GNC Америка</channel>
+    <channel site="epg.iptvx.one" lang="ru" xmltv_id="CNNInternational.us" site_id="cnn">CNN</channel>
+    <channel site="epg.iptvx.one" lang="ru" xmltv_id="DiscoveryChannel.us" site_id="discovery-channel">Discovery Channel</channel>
+    <channel site="epg.iptvx.one" lang="ru" xmltv_id="DiscoveryScience.us" site_id="discovery-science">Discovery Science</channel>
+    <channel site="epg.iptvx.one" lang="ru" xmltv_id="ESPN2.us" site_id="espn2-us">ESPN2 [US]</channel>
+    <channel site="epg.iptvx.one" lang="ru" xmltv_id="ESPN.us" site_id="espn-us">ESPN [US]</channel>
+    <channel site="epg.iptvx.one" lang="ru" xmltv_id="FoodNetwork.us" site_id="food-network">Food Network</channel>
+    <channel site="epg.iptvx.one" lang="ru" xmltv_id="FX.us" site_id="fox">FX</channel>
+    <channel site="epg.iptvx.one" lang="ru" xmltv_id="FoxBusinessNetwork.us" site_id="fox-business-us">Fox Business [US]</channel>
+    <channel site="epg.iptvx.one" lang="ru" xmltv_id="FoxNewsChannel.us" site_id="fox-news-us">Fox News</channel>
+    <channel site="epg.iptvx.one" lang="ru" xmltv_id="GolfChannel.us" site_id="golf-cnl-us">Golf Channel [US]</channel>
+    <channel site="epg.iptvx.one" lang="ru" xmltv_id="VICETV.us" site_id="h2">H2</channel>
+    <channel site="epg.iptvx.one" lang="ru" xmltv_id="HGTV.us" site_id="hgtv">HGTV</channel>
+    <channel site="epg.iptvx.one" lang="ru" xmltv_id="HustlerTV.us" site_id="hustler-tv">Hustler TV</channel>
+    <channel site="epg.iptvx.one" lang="ru" xmltv_id="MLBNetwork.us" site_id="mlb-network-us">MLB Network [US]</channel>
+    <channel site="epg.iptvx.one" lang="ru" xmltv_id="MSNBC.us" site_id="msnbc-us">MSNBC [US]</channel>
+    <channel site="epg.iptvx.one" lang="ru" xmltv_id="MTVLive.us" site_id="mtv-live-us">MTV Live [US]</channel>
+    <channel site="epg.iptvx.one" lang="ru" xmltv_id="MTVU.us" site_id="mtv-u-us">MTV U [US]</channel>
+    <channel site="epg.iptvx.one" lang="ru" xmltv_id="NBATV.us" site_id="nba-tv-us">NBA TV [US]</channel>
+    <channel site="epg.iptvx.one" lang="ru" xmltv_id="NewsmaxTV.us" site_id="newsmax-us">NewsMax TV [US]</channel>
+    <channel site="epg.iptvx.one" lang="ru" xmltv_id="NewsNationEast.us" site_id="newsnation-us">NewsNation US</channel>
+    <channel site="epg.iptvx.one" lang="ru" xmltv_id="NFLNetwork.us" site_id="nfl-network-us">NFL Network [US]</channel>
+    <channel site="epg.iptvx.one" lang="ru" xmltv_id="NHLNetwork.us" site_id="nhl-network-us">NHL Network [US]</channel>
+    <channel site="epg.iptvx.one" lang="ru" xmltv_id="NickMusic.us" site_id="nick-music">NickMusic</channel>
+    <channel site="epg.iptvx.one" lang="ru" xmltv_id="Nickelodeon.us" site_id="nickelodeon-ru">Nickelodeon</channel>
+    <channel site="epg.iptvx.one" lang="ru" xmltv_id="Nicktoons.us" site_id="nicktoons">Nicktoons</channel>
+    <channel site="epg.iptvx.one" lang="ru" xmltv_id="NTVAmerica.us" site_id="ntv-amerika">НТВ-Америка</channel>
+    <channel site="epg.iptvx.one" lang="ru" xmltv_id="PlayboyTV.us" site_id="playboy-tv">Playboy TV</channel>
+    <channel site="epg.iptvx.one" lang="ru" xmltv_id="Revolt.us" site_id="revolt-tv-us">Revolt TV [US]</channel>
+    <channel site="epg.iptvx.one" lang="ru" xmltv_id="SpectrumSportsNet.us" site_id="spectrum-sportsnet-us">Spectrum SportsNet [US]</channel>
+    <channel site="epg.iptvx.one" lang="ru" xmltv_id="TBNArmenia.us" site_id="tbn-armenia">TBN Armenia</channel>
+    <channel site="epg.iptvx.one" lang="ru" xmltv_id="TLC.us" site_id="tlc">TLC</channel>
+    <channel site="epg.iptvx.one" lang="ru" xmltv_id="TravelChannel.us" site_id="travel-channel">Travel Channel</channel>
+    <channel site="epg.iptvx.one" lang="ru" xmltv_id="VH1.us" site_id="vh1-european">VH1</channel>
+    <channel site="epg.iptvx.one" lang="ru" xmltv_id="Yes2.us" site_id="yes2">Yes 2</channel>
     <channel site="tvprofil.com" lang="bg" xmltv_id="AXNBlack.us" site_id="bg/tv-programa#axn-black-bg">AXN Black BG</channel>
     <channel site="tvprofil.com" lang="bg" xmltv_id="AXNWhite.us" site_id="bg/tv-programa#axn-white-bg">AXN White BG</channel>
     <channel site="tvprofil.com" lang="bg" xmltv_id="BarelyLegalTV.us" site_id="bg/tv-programa#barely-legal">Barely Legal TV</channel>
